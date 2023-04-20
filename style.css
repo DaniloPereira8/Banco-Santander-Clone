@@ -1,0 +1,345 @@
+*{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.caixa-menu{
+    padding:25px;
+}
+
+.logo {
+    width: 130px;
+}
+
+.link-voce {
+    margin-left: 240px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #e01d1d;
+    cursor: pointer;
+    letter-spacing: -0.06em;
+}
+
+.link-voce:hover{
+    text-decoration: underline;
+}
+
+.link-empresa {
+    margin-left: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #000;
+    letter-spacing: -0.06em;
+}
+
+.link-empresa:hover{
+    text-decoration: underline;
+}
+
+#pesquisa{
+    border: none;
+    font-weight: 600;
+    margin-left:40px;
+    height: 20px;
+    letter-spacing: -0.05em;
+    font-size: 15px;
+    color: #444;
+}
+
+#pesquisa:focus{
+    outline: none;
+}
+
+button{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border:none;
+    cursor: pointer;
+    color: #444;
+    opacity: 0.8;
+    background: none;
+    font-size: 15px;
+}
+
+button i:hover{
+    color: #000000;
+}
+
+button i:active{
+    opacity: 0.4;
+}
+
+
+.foto-background{
+    width: 100%;
+}
+
+h3{
+    margin-left: 90px;
+    margin-top: 60px;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    line-height: 1;
+    letter-spacing: -0.03em;
+
+}
+
+.ul-1{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 1rem;
+}
+
+.li-1{
+    height: 150px;
+    width: 190px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    
+}
+
+.li-1:hover{
+
+    
+    transform: scale(0.9);
+    color: #ff0000;
+}
+
+li:active{
+    opacity: 0.4;
+    box-shadow: 0 0 0 6px #000000;
+}
+
+
+.imagem-produtos{
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+}
+
+.imagem-produtos-2{
+    width: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.p-1{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.foto-background-dois{
+    width: 100%;
+}
+
+h4{
+    margin-left: 90px;
+    margin-top: 60px;
+    font-size: 25px;
+    margin-bottom: 2rem;
+    line-height: 1;
+    letter-spacing: -0.02em;
+
+}
+
+.p-2{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.ul-2{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-bottom: 2rem;
+}
+
+.li-2{
+    height: 150px;
+    width: 190px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 30px;
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+.li-2:hover{
+
+    
+    transform: scale(0.9);
+    color: #194f7e;
+}
+
+#duvida{
+    margin-left: 4rem;
+}
+
+#link-central{
+    margin-left: 1rem;
+    color: #e01d1d;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+#link-central:hover{
+    color: #000;
+}
+
+#div-b{
+    display: flex;
+    height: 100px;
+}
+
+@media screen and (max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+    }
+
+    .caixa-menu{
+        width: 100%;
+        padding: 0;
+        display: block;
+    }
+
+    .logo{
+        width: 60%;
+        padding: 15px;
+        display: flex;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .link-voce{
+        width: 100%;
+        font-size: 17px;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        padding-top: 10px;
+    }
+
+    .link-empresa{
+        width: 100%;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        padding-top: 10px;
+
+
+    }
+
+        #pesquisa{
+            margin: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            padding-top: 10px;
+
+        }
+
+            button{
+                display: none;
+            }
+
+    .imagem-produtos{
+        width: 40px;
+    }
+
+    .imagem-produtos-2{
+        width: 40px;
+    }
+
+    .ul-1{
+        display: inline-block;
+        padding:20px;
+        width: 100%;
+        margin: auto;
+
+    }
+
+    .li-1{
+    width: 44%;
+    height: 100px;
+    padding: 5px;
+    }
+
+    .ul-2{
+        display: inline-block;
+        padding:20px;
+        width: 100%;
+        margin: auto;
+    }
+
+    .li-2{
+        width: 44%;
+        height: 100px;
+        padding: 5px;
+
+    }
+
+    .p-1{
+        font-size: 12px;
+    }
+
+    .p-2{
+        font-size: 15px;
+    }
+
+    .foto-background{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .foto-background-dois{
+        width: 100%;
+        padding: 5px;
+    }
+
+    h3{
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    h4{
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+        display: flex;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #duvida{
+        display: inline-block;
+        margin:auto;
+    }
+
+    #link-central{
+        display: inline-block;
+        margin: auto;
+    }
+
+    #div-b{
+        padding: 30px;
+    }
+}
+
