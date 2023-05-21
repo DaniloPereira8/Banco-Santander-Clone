@@ -265,9 +265,9 @@ h4{
     }
 
     .ul-1{
-        display: inline-block;
-        padding:20px;
-        width: 100%;
+        display: block;
+        padding:10px;
+        width: 60%;
         margin: auto;
 
     }
@@ -279,9 +279,9 @@ h4{
     }
 
     .ul-2{
-        display: inline-block;
-        padding:20px;
-        width: 100%;
+        display: block;
+        padding:10px;
+        width: 60%;
         margin: auto;
     }
 
@@ -297,31 +297,35 @@ h4{
     }
 
     .p-2{
-        font-size: 15px;
+        font-size: 12px;
     }
 
     .foto-background{
         width: 100%;
-        padding: 5px;
+        position: relative;
+        top: 20px;
+        margin-bottom: 20px;
     }
 
     .foto-background-dois{
         width: 100%;
-        padding: 5px;
+        position: relative;
+        top: 20px;
+        margin-bottom: 20px;
     }
 
     h3{
         font-size: 20px;
-        width: 100%;
+        width: 90%;
         margin: auto;
         display: flex;
         justify-content: center;
-        padding: 10px;
+        padding: 5px;
     }
 
     h4{
         font-size: 20px;
-        width: 100%;
+        width: 50%;
         margin: auto;
         display: flex;
         text-align: center;
@@ -339,7 +343,9 @@ h4{
     }
 
     #div-b{
-        padding: 30px;
+        width: 60%;
+        display: flex;
+        margin: auto;
     }
 }
 
